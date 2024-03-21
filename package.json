@@ -1,0 +1,44 @@
+{
+  "name": "vanilla-delegate",
+  "version": "1.0.0",
+  "description": "Simple vanilla js event delegation that can be destroy trigger once and use native event",
+  "type": "module",
+  "main": "./dist/index.js",
+  "typings": "./dist/src/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/cjs.js"
+  },
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "esbuild-plugin-d.ts": "^1.2.3",
+    "typescript": "^5.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macsim1982/vanilla-delegate.git"
+  },
+  "keywords": [
+    "delegate",
+    "fast",
+    "light",
+    "lightweight",
+    "minimalist",
+    "simple",
+    "once",
+    "vanilla",
+    "destroy",
+    "undelegate",
+    "es6",
+    "javascript"
+  ],
+  "author": "Maxime Lerouge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macsim1982/vanilla-delegate/issues"
+  },
+  "homepage": "https://github.com/macsim1982/vanilla-delegate#readme"
+}
